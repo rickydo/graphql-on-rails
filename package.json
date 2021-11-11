@@ -1,12 +1,10 @@
 {
-  "name": "rails-graphql",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "martian-library",
+  "private": true,
+  "dependencies": {
+    "@rails/ujs": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/actioncable": "^6.0.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "version": "0.1.0"
 }
