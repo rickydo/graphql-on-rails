@@ -19,7 +19,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module MartianLibrary
+module Myapp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
@@ -35,12 +35,12 @@ module MartianLibrary
     # Don't generate system test files.
     config.generators.system_tests = nil
 
-    config.generator do |g|
+    config.generators do |g|
       g.test_framework false
-      g.stylesheets false
-      g.javascripts false
-      g.helper false
-      g.channel assets: false
+      g.stylesheets     false
+      g.javascripts     false
+      g.helper          false
+      g.channel         assets: false
     end
   end
 end
