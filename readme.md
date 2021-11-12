@@ -111,4 +111,7 @@ docker rm $(docker ps -q -a) -f && docker rmi $(docker images -q) -f
 ```
 
 # Resource
-[Blog Walkthrough](https://blog.konnor.site/rails/getting-started-with-rails-6/)
+[graphql on Rails walkthrough](https://evilmartians.com/chronicles/graphql-on-rails-1-from-zero-to-the-first-query)
+
+
+[error running graphiql](https://stackoverflow.com/questions/63610495/error-errnoeexist-occurs-when-loading-page-in-rails-app-using-wsl)
